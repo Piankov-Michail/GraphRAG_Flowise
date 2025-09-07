@@ -61,3 +61,8 @@ To ensure we can properly analyze and connect this information, I'll now check t
 <img width="1515" height="500" alt="{D0D29970-1FE0-4CBB-BFFB-99451E794B17}" src="https://github.com/user-attachments/assets/e06139cb-2c5c-42c9-9c9f-7362717d0d7b" />
 
 ### [log](https://github.com/Piankov-Michail/GraphRAG_Flowise/blob/main/log.txt)
+<br> <br>
+## Resources
+### [Flowise](https://github.com/FlowiseAI/Flowise)
+### [Cognee](https://github.com/topoteretes/cognee)
+### [Ollama](https://hub.docker.com/r/ollama/ollama)
