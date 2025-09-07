@@ -1,6 +1,6 @@
 # GraphRAG_Project
 ## Installation
-### Auto
+### Auto [run_services.sh](run_services.sh)
 ```bash
 chmod +x run_services.sh
 ./run_services.sh
