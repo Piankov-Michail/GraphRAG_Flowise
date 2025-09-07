@@ -1,8 +1,8 @@
 # GraphRAG_Flowise
 
 ## 1) Clone all repositories into your directory
-### `git clone https://github.com/Piankov-Michail/Flowise.git`
-### `git clone https://github.com/Piankov-Michail/cognee.git`
+### `git clone https://github.com/Piankov-Michail/Flowise_for_GraphRAG.git`
+### `git clone https://github.com/Piankov-Michail/cognee_for_GraphRAG.git`
 ### <br> <br>
 ## 2) Cognee service
 ### `cd cognee/` <br> `cp .env.template .env` 
