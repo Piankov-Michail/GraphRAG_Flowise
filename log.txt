@@ -1,0 +1,88 @@
+cognee-mcp  | Processing request of type CallToolRequest
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:39:57.531607 [info     ] Cognify process starting.      [cognee.shared.logging_utils]
+cognee-mcp  | None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:01.908161 [info     ] Model not found in LiteLLM's model_cost. [cognee.shared.logging_utils]
+cognee-mcp  |
+cognee-mcp  | EmbeddingRateLimiter initialized: enabled=False, requests_limit=60, interval_seconds=60
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:21.974110 [info     ] Pipeline run started: `324fc64e-4726-5f9e-a135-e2c4d8f21fc0` [run_tasks_with_telemetry()]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:22.333300 [info     ] Coroutine task started: `resolve_data_directories` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:22.588171 [info     ] Coroutine task started: `ingest_data` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:22.846613 [info     ] Registered loader: pypdf_loader [cognee.infrastructure.loaders.LoaderEngine]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:22.846832 [info     ] Registered loader: text_loader [cognee.infrastructure.loaders.LoaderEngine]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:22.846987 [info     ] Registered loader: image_loader [cognee.infrastructure.loaders.LoaderEngine]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:22.847170 [info     ] Registered loader: audio_loader [cognee.infrastructure.loaders.LoaderEngine]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:22.847419 [info     ] Registered loader: unstructured_loader [cognee.infrastructure.loaders.LoaderEngine]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:22.862733 [info     ] Coroutine task completed: `ingest_data` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:23.099281 [info     ] Coroutine task completed: `resolve_data_directories` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:23.383129 [info     ] Pipeline run completed: `324fc64e-4726-5f9e-a135-e2c4d8f21fc0` [run_tasks_with_telemetry()]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:24.122970 [info     ] Model not found in LiteLLM's model_cost. [cognee.shared.logging_utils]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:24.141707 [info     ] Ontology file 'None' not found. No owl ontology will be attached to the graph. [OntologyAdapter]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:24.174658 [info     ] Pipeline run started: `e993d49d-8eb0-5902-8185-830c7cc80952` [run_tasks_with_telemetry()]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:24.421034 [info     ] Coroutine task started: `classify_documents` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:24.656826 [info     ] Coroutine task started: `check_permissions_on_dataset` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:24.906885 [info     ] Async Generator task started: `extract_chunks_from_documents` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:25.163720 [info     ] Coroutine task started: `extract_graph_from_data` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:40:25.435635 [info     ] Model not found in LiteLLM's model_cost. [cognee.shared.logging_utils]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:41:37.923989 [info     ] No close match found for 'person' in category 'classes' [OntologyAdapter]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:41:37.924372 [info     ] No close match found for 'alex' in category 'individuals' [OntologyAdapter]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:41:37.924694 [info     ] No close match found for 'sarah' in category 'individuals' [OntologyAdapter]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:41:37.924912 [info     ] No close match found for 'mark' in category 'individuals' [OntologyAdapter]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:41:37.925206 [info     ] No close match found for 'emma' in category 'individuals' [OntologyAdapter]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:41:37.925534 [info     ] No close match found for 'chloe' in category 'individuals' [OntologyAdapter]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:41:37.925978 [info     ] No close match found for 'david' in category 'individuals' [OntologyAdapter]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:41:37.926343 [info     ] No close match found for 'linda' in category 'individuals' [OntologyAdapter]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:41:42.763207 [info     ] Retrieved 10 nodes and 15 edges in 0.04 seconds [Neo4jAdapter]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:41:43.245533 [info     ] Coroutine task started: `summarize_text` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:41:43.506993 [info     ] Model not found in LiteLLM's model_cost. [cognee.shared.logging_utils]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:42:02.654831 [info     ] Coroutine task started: `add_data_points` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:42:09.257847 [info     ] Retrieved 11 nodes and 22 edges in 0.01 seconds [Neo4jAdapter]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:42:10.293937 [info     ] Coroutine task completed: `add_data_points` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:42:10.538306 [info     ] Coroutine task completed: `summarize_text` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:42:10.781045 [info     ] Coroutine task completed: `extract_graph_from_data` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:42:11.021429 [info     ] Async Generator task completed: `extract_chunks_from_documents` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:42:11.263619 [info     ] Coroutine task completed: `check_permissions_on_dataset` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:42:11.510047 [info     ] Coroutine task completed: `classify_documents` [run_tasks_base]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:42:11.753753 [info     ] Pipeline run completed: `e993d49d-8eb0-5902-8185-830c7cc80952` [run_tasks_with_telemetry()]
+cognee-mcp  |
+cognee-mcp  | 2025-09-07T11:42:12.005422 [info     ] Cognify process finished.      [cognee.shared.logging_utils]
