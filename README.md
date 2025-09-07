@@ -1,4 +1,4 @@
-# GraphRAG_Flowise
+# GraphRAG_Project
 
 ## 1) Clone all repositories into your directory
 ### `git clone https://github.com/Piankov-Michail/Flowise_for_GraphRAG.git`
