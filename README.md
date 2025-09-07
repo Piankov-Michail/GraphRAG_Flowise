@@ -5,11 +5,11 @@
 ### `git clone https://github.com/Piankov-Michail/cognee_for_GraphRAG.git`
 ### <br> <br>
 ## 2) Cognee service
-### `cd cognee/` <br> `cp .env.template .env` 
+### `cd cognee_for_GraphRAG/` <br> `cp .env.template .env` 
 ### `docker compose --profile neo4j --profile cognee-mcp up -d`
 ### <br> <br>
 ## 3) Flowise service
-### `cd ../Flowise/docker/` <br> `cp .env.example .env`
+### `cd ../Flowise_for_GraphRAG/docker/` <br> `cp .env.example .env`
 ### `docker compose up -d`
 ### <br> <br>
 ## 4) Ollama service
