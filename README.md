@@ -31,8 +31,8 @@ docker compose up -d
 ```bash
 cd ../..
 
-docker run -d --network=cognee-network --gpus=all -v ollama:/root/.ollama --name ollama ollama/ollama`
-docker exec -it -d ollama ollama run qwen3:4b-instruct-2507-q4_K_M`
+docker run -d --network=cognee-network --gpus=all -v ollama:/root/.ollama --name ollama ollama/ollama
+docker exec -it -d ollama ollama run qwen3:4b-instruct-2507-q4_K_M
 docker exec -it -d ollama ollama run dengcao/Qwen3-Embedding-4B:Q4_K_M
 ```
 <br>
