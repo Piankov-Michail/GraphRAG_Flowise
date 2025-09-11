@@ -74,6 +74,10 @@ To ensure we can properly analyze and connect this information, I'll now check t
 
 ### [log](https://github.com/Piankov-Michail/GraphRAG_Flowise/blob/main/log.txt)
 <br> <br>
+
+## [Demo](https://github.com/Piankov-Michail/GraphRAG_Project/blob/main/demo.pdf)
+<br>
+
 ## Resources
 ### [Flowise](https://github.com/FlowiseAI/Flowise)
 ### [Cognee](https://github.com/topoteretes/cognee)
