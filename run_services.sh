@@ -4,7 +4,7 @@ git clone https://github.com/Piankov-Michail/cognee_for_GraphRAG.git
 cd cognee_for_GraphRAG/
 cp .env.template .env
 
-docker compose --profile qdrant --profile postgres --profile neo4j --profile mcp up -d
+docker compose --profile postgres --profile neo4j --profile mcp up -d
 
 cd ../Flowise_for_GraphRAG/docker/
 cp .env.example .env
