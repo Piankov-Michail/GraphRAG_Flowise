@@ -51,6 +51,11 @@ http://localhost:3000/
 ```text
 http://localhost:7474/
 ```
+
+#### 8) To see vectorDB and relationDB in pgAdmin open 
+```text
+http://localhost:5050/
+```
 <br><br>
 
 ## Example
