@@ -7,7 +7,7 @@ chmod +x run_services.sh
 ```
 <br>
 
-### Manual
+### Manual Installation
 #### 1) Clone all repositories into your directory
 ```bash 
 git clone https://github.com/Piankov-Michail/Flowise_for_GraphRAG.git
